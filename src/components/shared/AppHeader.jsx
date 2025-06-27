@@ -84,11 +84,6 @@ const AppHeader = () => {
 							className="focus:outline-none"
 							aria-label="Hamburger Menu"
 						>
-							<img
-									src={logoLight}
-									className="w-36 rounded-full object-cover"
-									alt="Dark Logo"
-								/>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 24 24"

@@ -1,7 +1,7 @@
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
-import developerLight from '../../images/KabeerProfile.jpg';
-import developerDark from '../../images/KabeerProfile.jpg';
+import developerLight from '../../images/KabeerProfile.png';
+import developerDark from '../../images/KabeerProfile.png';
 import { motion } from 'framer-motion';
 
 const AppBanner = () => {
