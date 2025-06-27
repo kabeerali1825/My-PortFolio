@@ -1,6 +1,5 @@
 {
 	"name": "react-tailwindcss-portfolio",
-	"homepage": "https://kabeerali.github.io/kabeerali",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -25,8 +24,6 @@
 		"build": "yarn run react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
 	},
 	"eslintConfig": {
