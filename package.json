@@ -1,6 +1,5 @@
 {
 	"name": "react-tailwindcss-portfolio",
-	"homepage": "https://kabeerali.github.io/kabeerali",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -8,7 +7,6 @@
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^14.4.3",
 		"framer-motion": "4.1.17",
-		"gh-pages": "^6.3.0",
 		"postcss-cli": "^10.1.0",
 		"react": "^18.1.0",
 		"react-countup": "^6.1.1",
@@ -21,15 +19,14 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-  "start": "react-scripts start",
-  "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "build:css": "postcss src/css/tailwind.css -o src/css/main.css"
-}
-,
+		"start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+		"build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+	},
 	"eslintConfig": {
 		"extends": [
 			"react-app",
